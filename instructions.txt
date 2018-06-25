@@ -1,0 +1,6 @@
+Research Exam
+----------------------
+Create a simple one to one chat application using PeerJS and upload it to you Github(http://github.com/). Please create an account if you don't have one.
+
+Additional that may be prerequisite.
+- NodeJS
