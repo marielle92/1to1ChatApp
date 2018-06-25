@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Person 2</title>
+	</head>
+	<body>
+		<script>
+			//key
+			var peer = new Peer({key: 'lwjd5qra8257b9'});
+			//receive con
+			peer.on('connection', function(conn) { ... });
+			//peer server
+			var PeerServer = require('peer').PeerServer;
+			var server = PeerServer({port: 9000, path: 'C:/Users/tmjph.TMJ-PH/Desktop/exam2 - MSB/peerjs-server-master/test/server.js'});
+
+			//id
+			var peer = new Peer(['9876543210'], [options]);
+			//connect to peer
+			var dataConnection = peer.connect('0123456789', [options]);
+
+			conn.on('open', function() {
+		  // Receive messages
+		  conn.on('data', function(data) {
+		    console.log('Received', data);
+		  });
+
+		  // Send messages
+		  conn.send('Hello!');
+			});
+		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.9/peer.min.js"></script>
+	</body>
+</html>
